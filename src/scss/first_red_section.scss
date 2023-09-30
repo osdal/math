@@ -1,0 +1,44 @@
+.first-red-section {
+	background-color: $bgColorContainer;
+	height: 100%;
+	overflow: auto;
+	border-radius: 0 0 rem(25) rem(25);
+	h1 {
+		padding-bottom: 6.25rem;
+
+		span {
+			font-style: italic;
+			font-weight: 700;
+		}
+	}
+}
+.frs__container {
+}
+
+.frs_content {
+	padding: 0 rem(250);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7.88rem;
+	p {
+		align-self: flex-end;
+		font-size: 1.25rem;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 150%; /* 1.875rem */
+		opacity: 0.9;
+		width: rem(720);
+		height: rem(150);
+	}
+}
+.frs_footer {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	flex: 1 0 0;
+	margin: 3.5rem;
+	font-weight: 300;
+	span {
+		text-decoration: underline;
+	}
+}
