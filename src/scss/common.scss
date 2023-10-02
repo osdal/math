@@ -1,32 +1,57 @@
 // Заголовки, загальні БЕМ блоки та інше...
-.row_align_center {
+.row-align-center {
 	display: flex;
 	align-items: center;
 }
 
-.text_heading {
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.col-align-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-heading {
 	font-family: PlayfairDisplay;
 	font-size: 4.5rem;
 	font-weight: 700;
 	line-height: 120%; /* 5.4rem */
 }
 
-.text_heding_medium {
+.text-heding-medium {
 	font-size: 2rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 130%; /* 2.6rem */
 }
 
+.text-heading-little {
+	font-family: Playfair Display;
+	font-size: rem(32);
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.text-heading-little-bold {
+	font-family: Playfair Display;
+	font-size: rem(32);
+	font-weight: 700;
+	line-height: 120%;
+}
+
 .red {
 	color: $bgColorContainer;
 }
 
-.bg_red {
+.bg-red {
 	background-color: $bgColorContainer;
 }
 
-.icon_round {
+.icon-round {
 	display: flex;
 	width: 6rem;
 	height: 6rem;
@@ -36,9 +61,10 @@
 	gap: 0.75rem;
 	border-radius: 6.1875rem;
 }
-.text_common {
+.text-common {
 	font-size: 1.25rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%; /* 1.875rem */
+	font-family: Roboto sans-serif;
 }

@@ -2,23 +2,22 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 10rem;
 }
 
 .gss__container {
-	display: inline-flex;
-	padding: 0.625rem 0rem;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 10rem;
-	margin-bottom: 10rem;
+	gap: 10rem;
+	padding: 10rem 0 10rem 0;
 	h2 {
 		margin-bottom: 3.5rem;
 	}
 }
 
-.gss_1-block p {
-	width: 44rem;
-	text-align: center;
+.head-gss-block-content {
+	p {
+		text-align: center;
+		width: 45rem;
+	}
 }
 
 .mission {
@@ -28,22 +27,51 @@
 	margin-bottom: 5rem;
 }
 
-.gss_1-block {
-	margin-bottom: 10rem;
+.gss-1-block {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	.gss_1-block-footer {
-		display: flex;
-	}
-}
-
-.gss_1-block-footer {
-	margin-bottom: 10rem;
 	gap: 1.5rem;
+	.row-align-center {
+		gap: 1.5rem;
+	}
+	.row-align-center {
+		align-self: start;
+	}
+	.col {
+		gap: 1.5rem;
+	}
+	.text-common {
+		width: rem(410);
+	}
 }
 
 .line {
 	width: 40.5625rem;
 	height: 0.125rem;
+}
+
+.gss__container .gss-1-block:nth-child(odd) {
+	align-self: start;
+	.line {
+		width: 24.25rem;
+	}
+	.text-common {
+		width: rem(500);
+	}
+}
+
+.bottom-red-block {
+	display: flex;
+	gap: 1.56rem;
+	width: 60rem;
+	padding: 3.5rem;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1.5625rem;
+}
+
+.brb-heading {
+	span {
+		font-weight: 400;
+		font-style: italic;
+	}
 }
