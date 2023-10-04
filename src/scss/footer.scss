@@ -1,3 +1,24 @@
 //====================================================================================================
-
+footer {
+	border-radius: rem(25);
+	padding: 3.5rem;
+}
+// .footer__container {
+// 	display: flex;
+// 	justify-content: space-around;
+// }
+.top-section {
+	display: flex;
+	justify-content: space-between;
+	.logo {
+		gap: 1.56rem;
+	}
+	.col {
+		gap: 2rem;
+	}
+	.adress p {
+		display: flex;
+		flex-direction: column;
+	}
+}
 //====================================================================================================

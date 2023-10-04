@@ -43,12 +43,50 @@
 	line-height: 120%;
 }
 
+.text-heading-little-bold-common {
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.text-heading-little-bold-common-1 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.text-heading-little-common-1 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 150%;
+}
+
 .red {
 	color: $bgColorContainer;
 }
 
 .bg-red {
 	background-color: $bgColorContainer;
+}
+
+.bg-yellow {
+	background-color: $bgYellow;
+}
+
+.blue {
+	color: $blue;
+}
+
+.bg-blue {
+	background-color: $blue;
+}
+
+.bg-cream {
+	background-color: $bgColorWrapper;
+}
+
+.white {
+	color: #fff;
 }
 
 .icon-round {
@@ -66,5 +104,23 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%; /* 1.875rem */
-	font-family: Roboto sans-serif;
+}
+.text-common-1 {
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 1.5rem */
+}
+
+.gap-10 {
+	gap: 10rem;
+}
+
+.learn-more-btn {
+	display: flex;
+	padding: 0.5rem 1.25rem;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6.1875rem;
+	border: 1px solid $blue;
 }

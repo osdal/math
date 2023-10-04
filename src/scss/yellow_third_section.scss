@@ -1,0 +1,64 @@
+.yts__container {
+	padding: 10rem 0rem;
+}
+
+.yts-block {
+	h3 {
+		margin-bottom: 1.5rem;
+		font-size: 1.25rem;
+	}
+	h2 {
+		margin-bottom: 3.5rem;
+		width: 60rem;
+		text-align: center;
+	}
+	span {
+		font-style: italic;
+		font-weight: 400;
+	}
+	p {
+		width: 45rem;
+		text-align: center;
+	}
+}
+
+.yts-block.portrets {
+	display: flex;
+	gap: 3rem;
+}
+
+.card {
+	width: rem(400);
+	gap: 1.8rem;
+	h4 {
+		text-align: center;
+	}
+	p {
+		width: 100%;
+	}
+}
+.guru {
+	background: url("@img/gurudev.jpg");
+}
+.paramguru {
+	background: url("@img/paramgurudev.jpg");
+}
+.prabhupad {
+	background: url("@img/prabhupada.jpg");
+}
+
+.portret {
+	height: 42.1875rem;
+	width: rem(400);
+	border-radius: 62.4375rem;
+	background-position: center top;
+	background-size: cover;
+}
+
+.yts {
+	.bottom-block {
+		.subscribe-btn a {
+			color: $blue;
+		}
+	}
+}
