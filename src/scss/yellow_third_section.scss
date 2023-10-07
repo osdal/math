@@ -23,9 +23,14 @@
 }
 
 .yts-block.portrets {
-	display: flex;
-	gap: 3rem;
+	position: relative;
+	.wrap{
+		display: flex;
+		gap: 3rem;
+		position: absolute;
+	}
 }
+
 
 .card {
 	width: rem(400);
