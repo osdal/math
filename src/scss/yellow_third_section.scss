@@ -58,9 +58,14 @@
 	background-size: cover !important;
 }
 
+.slider.bottom {
+	display: flex;
+}
+
 .dots {
 	display: flex;
 	gap: 0.5rem;
+	margin-right: 46em;
 }
 
 .dot {
@@ -74,7 +79,12 @@
 	background-color: $blue;
 }
 
-.round_arrows_block div{
+.round_arrows_block {
+	display: flex;
+	gap: 1rem;
+}
+
+.round_arrows_block div {
 	height: 3rem;
 	width: 3rem;
 	display: flex;
@@ -82,11 +92,15 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 50px;
-	border: 1px solid var(--Blue, #4F7DDB);
+	border: 3px solid $blue;
 	opacity: 0.5;
 }
 
-.left_arrow{
+.left_arrow {
+}
+
+.right_arrow {
+	border: 3px solid $blue !important;
 }
 
 .yts {
