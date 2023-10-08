@@ -74,6 +74,21 @@
 	background-color: $blue;
 }
 
+.round_arrows_block div{
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	padding: 0.75rem;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	border: 1px solid var(--Blue, #4F7DDB);
+	opacity: 0.5;
+}
+
+.left_arrow{
+}
+
 .yts {
 	.bottom-block {
 		.subscribe-btn {
