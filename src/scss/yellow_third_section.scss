@@ -64,10 +64,14 @@
 }
 
 .dot {
-	width: 0.5rem;
-	height: 0.5rem;
-	background-color: $blue;
+	width: 0.8rem;
+	height: 0.8rem;
+	background-color: $blue-1;
 	border-radius: 50%;
+}
+
+.dots .dot:first-child {
+	background-color: $blue;
 }
 
 .yts {
