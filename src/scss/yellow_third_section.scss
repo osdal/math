@@ -23,11 +23,23 @@
 }
 
 .yts-block.portrets {
+	position: relative;
+	height: 60rem;
 	.wrap {
+		position: absolute;
+		left: -200px;
 		display: flex;
 		gap: 3rem;
 		margin-bottom: 3rem;
 	}
+}
+
+.portret {
+	height: 42.1875rem;
+	width: rem(400);
+	border-radius: 62.4375rem;
+	background-position: center top !important;
+	background-size: cover !important;
 }
 
 .card {
@@ -48,14 +60,6 @@
 }
 .prabhupad {
 	background: url("@img/prabhupada.jpg");
-}
-
-.portret {
-	height: 42.1875rem;
-	width: rem(400);
-	border-radius: 62.4375rem;
-	background-position: center top !important;
-	background-size: cover !important;
 }
 
 .slider.bottom {
