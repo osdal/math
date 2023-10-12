@@ -30,6 +30,7 @@
 .gss-block {
 width: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	gap: 1.5rem;
 	.row-align-center {
@@ -40,7 +41,8 @@ width: 100%;
 		align-self: start;
 	}
 	.col {
-		gap: 1.5rem;
+		// gap: 1.5rem;
+		align-self:flex-end
 	}
 	.text-common {
 		width: rem(410);
