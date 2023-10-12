@@ -28,10 +28,12 @@
 }
 
 .gss-block {
-	align-self: start;
+width: 100%;
 	display: flex;
+	justify-content: center;
 	gap: 1.5rem;
 	.row-align-center {
+		width: 100%;
 		gap: 1.5rem;
 	}
 	.row-align-center {
@@ -46,7 +48,7 @@
 }
 
 .line {
-	width: 55rem;
+	width: 50%;
 	height: 0.125rem;
 }
 
