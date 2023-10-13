@@ -45,15 +45,28 @@
 	}
 }
 
+.gss-block.first{
+	flex-wrap: wrap;
+	div:nth-child(3){
+		align-self: flex-end;
+		margin-left: 47.3rem;
+	}
+	
+	.line {
+		width: 38rem;
+		height: 0.125rem;
+	}
+}
 .line {
 	width: 38rem;
-	height: 0.125rem;
+	// height: 0.125rem;
 }
+
 
 .gss__container .gss-block:nth-child(odd) {
 	align-self: start;
 	.line {
-		width: 19rem;
+		width: 10rem;
 	}
 	.text-common {
 		width: rem(500);
