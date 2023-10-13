@@ -6,7 +6,7 @@
 
 .gss__container {
 	gap: 10rem;
-	padding: 10rem 0 10rem 0;
+	padding: 0 0 10rem 0;
 	width: 100%;
 	h2 {
 		margin-bottom: 3.5rem;
@@ -24,49 +24,40 @@
 	color: $bgColorContainer;
 	font-size: 1.25rem;
 	font-weight: 700;
-	margin-bottom: 5rem;
+	margin-bottom: 1.5rem;
 }
 
 .gss-block {
-	align-self: start;
+width: 100%;
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	gap: 1.5rem;
 	.row-align-center {
+		width: 100%;
 		gap: 1.5rem;
 	}
 	.row-align-center {
 		align-self: start;
 	}
 	.col {
-		gap: 1.5rem;
+		// gap: 1.5rem;
+		align-self:flex-end
 	}
 	.text-common {
 		width: rem(410);
 	}
 }
 
-.gss-block.first{
-	flex-wrap: wrap;
-	div:nth-child(3){
-		align-self: flex-end;
-		margin-left: 47.3rem;
-	}
-	
-	.line {
-		width: 38rem;
-		height: 0.125rem;
-	}
-}
 .line {
 	width: 38rem;
-	// height: 0.125rem;
+	height: 0.125rem;
 }
-
 
 .gss__container .gss-block:nth-child(odd) {
 	align-self: start;
 	.line {
-		width: 10rem;
+		width: 19rem;
 	}
 	.text-common {
 		width: rem(500);

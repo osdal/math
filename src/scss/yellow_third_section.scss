@@ -23,11 +23,23 @@
 }
 
 .yts-block.portrets {
+	position: relative;
+	height: 60rem;
 	.wrap {
+		position: absolute;
+		left: -200px;
 		display: flex;
 		gap: 3rem;
 		margin-bottom: 3rem;
 	}
+}
+
+.portret {
+	height: 42.1875rem;
+	width: rem(400);
+	border-radius: 62.4375rem;
+	background-position: center top !important;
+	background-size: cover !important;
 }
 
 .card {
@@ -50,17 +62,14 @@
 	background: url("@img/prabhupada.jpg");
 }
 
-.portret {
-	height: 42.1875rem;
-	width: rem(400);
-	border-radius: 62.4375rem;
-	background-position: center top !important;
-	background-size: cover !important;
+.slider.bottom {
+	display: flex;
 }
 
 .dots {
 	display: flex;
 	gap: 0.5rem;
+	margin-right: 46em;
 }
 
 .dot {
@@ -72,6 +81,30 @@
 
 .dots .dot:first-child {
 	background-color: $blue;
+}
+
+.round_arrows_block {
+	display: flex;
+	gap: 1rem;
+}
+
+.round_arrows_block div {
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	padding: 0.75rem;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	border: 3px solid $blue;
+	opacity: 0.5;
+}
+
+.left_arrow {
+}
+
+.right_arrow {
+	border: 3px solid $blue !important;
 }
 
 .yts {
