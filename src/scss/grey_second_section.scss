@@ -13,6 +13,7 @@
 	}
 }
 
+
 .head-gss-block-content {
 	p {
 		text-align: center;
@@ -33,6 +34,15 @@ width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	gap: 1.5rem;
+	&.first{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: start;
+		& div:last-child{
+			margin-left: 56%;
+		}
+	}
 	.row-align-center {
 		width: 100%;
 		gap: 1.5rem;
@@ -50,7 +60,7 @@ width: 100%;
 }
 
 .line {
-	width: 38rem;
+	width: 45%;
 	height: 0.125rem;
 }
 
