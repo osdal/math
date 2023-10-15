@@ -38,10 +38,28 @@
 	&.first{
 		flex-direction: row;
 		flex-wrap: wrap;
-		align-items: center;
 		justify-content: start;
+		align-items:start;
 		& div:last-child{
-			margin-left: 56%;
+		}
+		.decor{
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			gap:1rem;
+			flex: 0.7;		
+		}
+		.line{
+			flex: 2;
+		}
+		.icon-round{
+			height: 7.2rem;
+			width: 7.2rem;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
 		}
 	}
 	.row-align-center {
