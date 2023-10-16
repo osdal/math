@@ -14,7 +14,6 @@
 	}
 }
 
-
 .head-gss-block-content {
 	p {
 		text-align: center;
@@ -32,46 +31,40 @@
 .gss-block {
 	width: 100%;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	gap: 1.5rem;
-	&.first{
+	&.first {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: start;
-		align-items:start;
-		& div:last-child{
+		align-items: start;
+		& div:last-child {
 		}
-		.decor{
+		.decor {
 			display: flex;
 			align-items: center;
 			justify-content: start;
-			gap:1rem;
-			flex: 0.7;		
+			gap: 1rem;
+			flex: 0.7;
 		}
-		.line{
+		.line {
 			flex: 2;
 		}
-		.icon-round{
+		.icon-round {
 			height: 7.2rem;
 			width: 7.2rem;
 		}
-		.content{
+		.content {
 			display: flex;
 			flex-direction: column;
 			gap: 1.5rem;
 		}
 	}
-	.row-align-center {
-		width: 100%;
-		gap: 1.5rem;
-	}
-	.row-align-center {
-		align-self: start;
-	}
+	// & div:nth-child(1) {
+	// 	margin-left: 25%;
+	// }
 	.col {
 		// gap: 1.5rem;
-		align-self:flex-end
+		align-self: flex-end;
 	}
 	.text-common {
 		width: rem(410);
@@ -83,15 +76,15 @@
 	height: 0.125rem;
 }
 
-.gss__container .gss-block:nth-child(odd) {
-	align-self: start;
-	.line {
-		width: 19rem;
-	}
-	.text-common {
-		width: rem(500);
-	}
-}
+// .gss__container .gss-block:nth-child(odd) {
+// 	align-self: start;
+// 	.line {
+// 		width: 19rem;
+// 	}
+// 	.text-common {
+// 		width: rem(500);
+// 	}
+// }
 
 .bottom-block {
 	display: flex;
