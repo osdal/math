@@ -12,6 +12,11 @@
 		margin-bottom: 3.5rem;
 	}
 }
+.gss__container .gss-block:nth-child(odd){
+	@media(max-width:1440px){
+		margin-left:40%;
+	}
+}
 
 .head-gss-block-content {
 	p {
@@ -31,11 +36,13 @@
 	width: 100%;
 	display: flex;
 	gap: 1.5rem;
+	
 	&.first {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: start;
 		align-items: start;
+		margin-left:0;
 		& div:last-child {
 		}
 		.decor {
@@ -44,6 +51,11 @@
 			justify-content: start;
 			gap: 1rem;
 			flex: 0.7;
+		}
+		@media(max-width: 1440px){
+			.decor{
+				flex:0.83;
+			}
 		}
 		.line {
 			flex: 2;
