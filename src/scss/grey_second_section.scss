@@ -12,10 +12,14 @@
 		margin-bottom: 3.5rem;
 	}
 }
-.gss__container .gss-block:nth-child(odd){
-	@media(max-width:1440px){
-		margin-left:40%;
+.gss__container .gss-block:nth-child(odd) {
+	margin-left: 50%;
+	@media (max-width: 1440px) {
+		margin-left: 40%;
 	}
+}
+
+.gss__container .gss-block:nth-child(even) {
 }
 
 .head-gss-block-content {
@@ -36,13 +40,13 @@
 	width: 100%;
 	display: flex;
 	gap: 1.5rem;
-	
+
 	&.first {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: start;
 		align-items: start;
-		margin-left:0;
+		margin-left: 0;
 		& div:last-child {
 		}
 		.decor {
@@ -52,9 +56,9 @@
 			gap: 1rem;
 			flex: 0.7;
 		}
-		@media(max-width: 1440px){
-			.decor{
-				flex:0.83;
+		@media (max-width: 1440px) {
+			.decor {
+				flex: 0.83;
 			}
 		}
 		.line {
@@ -70,9 +74,7 @@
 			gap: 1.5rem;
 		}
 	}
-	// & div:nth-child(1) {
-	// 	margin-left: 25%;
-	// }
+
 	.col {
 		// gap: 1.5rem;
 		align-self: flex-end;
@@ -86,16 +88,6 @@
 	width: 45%;
 	height: 0.125rem;
 }
-
-// .gss__container .gss-block:nth-child(odd) {
-// 	align-self: start;
-// 	.line {
-// 		width: 19rem;
-// 	}
-// 	.text-common {
-// 		width: rem(500);
-// 	}
-// }
 
 .bottom-block {
 	display: flex;
