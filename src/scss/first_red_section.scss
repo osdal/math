@@ -30,6 +30,21 @@
 		height: 8.4rem;
 	}
 }
+@media (max-width: 768px) {
+	.frs-content,
+	h1 {
+		width: 100%;
+		padding: 0 3rem;
+	}
+	.frs-content {
+		display: flex;
+		flex-direction: column;
+		p {
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+}
 .frs_footer {
 	display: flex;
 	align-items: center;
