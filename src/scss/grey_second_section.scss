@@ -4,7 +4,6 @@
 	align-items: center;
 }
 
-
 .gss__container {
 	gap: 10rem;
 	padding: 0 0 10rem 0;
@@ -18,6 +17,9 @@
 	@media (max-width: 1440px) {
 		margin-left: 40%;
 	}
+	@media (max-width: 768px) {
+		margin-left: 10%;
+	}
 }
 .gss__container .gss-block:nth-child(even) {
 	margin-left: 97%;
@@ -29,6 +31,9 @@
 .gss__container .gss-block:nth-child(even) {
 	@media (max-width: 1440px) {
 		margin-left: 95%;
+	}
+	@media (max-width: 768px) {
+		margin-left: 40%;
 	}
 }
 
@@ -112,10 +117,24 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.bottom-block {
+		width: 95%;
+		padding: 2.5rem;
+	}
+}
+
 .brb-heading {
 	text-align: center;
+	border-radius: 3rem;
 	span {
 		font-weight: 400;
 		font-style: italic;
+	}
+	.bottom-block {
+		padding: 0 3rem;
+	}
+	@media (max-width: 798px) {
+		padding: 0 3rem;
 	}
 }

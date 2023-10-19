@@ -64,12 +64,19 @@
 
 .slider.bottom {
 	display: flex;
+	@media (max-width: 768px) {
+		justify-content: space-around;
+		width: 100%;
+	}
 }
 
 .dots {
 	display: flex;
 	gap: 0.5rem;
 	margin-right: 46em;
+	@media (max-width: 768px) {
+		margin-right: 0;
+	}
 }
 
 .dot {
@@ -114,6 +121,9 @@
 		}
 		.subscribe-btn a {
 			color: $blue;
+		}
+		@media (max-width: 768px) {
+			margin: 0 3rem;
 		}
 	}
 }
