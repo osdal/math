@@ -38,9 +38,29 @@
 }
 
 .head-gss-block-content {
+	h2 {
+		br {
+			display: none;
+		}
+	}
 	p {
 		text-align: center;
 		width: 45rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.head-gss-block {
+		width: 100%;
+	}
+	.head-gss-block-content {
+		width: 100%;
+		h2 {
+			text-align: center;
+			br {
+				display: block;
+			}
+		}
 	}
 }
 

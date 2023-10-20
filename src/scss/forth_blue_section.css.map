@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAC;EACf,OAAO,EAAE,OAAO;CAiBhB;;AAlBD,AAEC,eAFc,CAEd,EAAE,CAAC;EACF,aAAa,EAAE,MAAM;CACrB;;AAJF,AAKC,eALc,CAKd,EAAE,CAAC;EACF,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,MAAM;CAKrB;;AAZF,AAQE,eARa,CAKd,EAAE,CAGD,IAAI,CAAC;EACJ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;CACnB;;AAXH,AAaC,eAbc,CAad,CAAC,CAAC;EACD,aAAa,EAAE,OAAO;EACtB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;CAClB",
-    "sources": [
-        "forth_blue_section.scss"
-    ],
-    "names": [],
-    "file": "forth_blue_section.css"
-}
