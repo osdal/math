@@ -11,8 +11,20 @@ header {
 
 	padding: rem(56);
 }
+
+@media(max-width:425px){
+	.top_bar{
+		justify-content: space-between;
+	}
+}
+
 .header__container {
 	margin-bottom: 10rem;
+}
+@media(max-width:425px){
+	.top_bar .subscribe-btn{
+		display: none;
+	}
 }
 
 @media(max-width: 720px){
@@ -25,12 +37,19 @@ header {
 	margin-right: rem(20);
 }
 
-.logo_icon {
+.logo-icon {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: rem(5);
 	margin-right: auto;
+}
+
+@media(max-width:425px){
+	.logo-icon{
+		margin-right: 0;
+		align-items: end;
+	}
 }
 
 .subscribe-btn {
