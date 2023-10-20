@@ -1,4 +1,7 @@
 .bts__container {
+	.subscribe-btn{
+		display: none;
+	}
 	padding: 10rem 0;
 	h3 {
 		margin-bottom: 1.5rem;
@@ -37,6 +40,20 @@
 		}
 		input[type="email"]:focus {
 			border: 2px solid blue !important;
+		}
+	}
+}
+
+@media(max-width:768px){
+	.bts__container{
+		p{
+			padding: 0 3rem;
+		}
+		form{
+			display: none;
+		}
+		.subscribe-btn{
+			display: block;
 		}
 	}
 }

@@ -22,6 +22,15 @@
 	}
 }
 
+@media(max-width:768px){
+	.yts-block{
+		h2, p{
+			width: 100%;
+		}
+	}
+	
+}
+
 .yts-block.portrets {
 	position: relative;
 	height: 60rem;
