@@ -50,4 +50,18 @@ footer {
 	}
 }
 
+@media(max-width:425px){
+	footer{
+		.menu, .top-section, .bottom-section{
+			flex-direction: column;
+		}
+
+		.menu, .bottom-section{
+			gap: 1rem;
+		}
+		
+	}
+		
+}
+
 //====================================================================================================
