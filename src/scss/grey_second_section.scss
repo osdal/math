@@ -35,6 +35,13 @@
 	@media (max-width: 768px) {
 		margin-left: 40%;
 	}
+	@media(max-width:425px){
+		margin-left: 2rem;
+	}
+}
+
+@media(max-width:425px){
+	
 }
 
 .head-gss-block-content {
@@ -55,10 +62,21 @@
 @media (max-width: 425px) {
 	.gss__container {
 		padding: 0 1rem;
+		gap: 5rem;
 		.gss-block.first {
 			.icon-round {
 				width: 6rem;
 				height: 6rem;
+			}
+		}
+		.gss-block{
+			flex-direction: column;
+			.col{
+				align-self: flex-start;
+				padding: 0 2rem 0 0;
+				p.text-common{
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -179,4 +197,16 @@
 	@media (max-width: 798px) {
 		padding: 0 3rem;
 	}
+}
+@media(max-width:425px){
+	.brb-heading{
+		padding: 0;
+		font-size: 1.5rem !important;
+	}
+	.bottom-block{
+		margin-bottom: 6.25rem;
+		p.text-common{
+			text-align: center;
+		}
+	}	
 }
