@@ -42,6 +42,9 @@
 		br {
 			display: none;
 		}
+		span {
+			font-style: italic;
+		}
 	}
 	p {
 		text-align: center;
@@ -50,19 +53,36 @@
 }
 
 @media (max-width: 425px) {
+	.gss__container {
+		padding: 0 1rem;
+		.gss-block.first {
+			.icon-round {
+				width: 6rem;
+				height: 6rem;
+			}
+		}
+	}
 	.head-gss-block {
 		width: 100%;
 	}
 	.head-gss-block-content {
 		width: 100%;
+		padding: 0 2rem;
 		h2 {
 			text-align: center;
 			br {
 				display: block;
 			}
 			span {
+				font-weight: 400;
 			}
 		}
+		p {
+			width: 100%;
+		}
+	}
+	.line {
+		display: none;
 	}
 }
 
