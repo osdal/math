@@ -37,6 +37,17 @@
 	
 }
 
+@media(max-width:425px){
+	.yts-block{
+		h2{
+			padding: 0 3rem;
+		}
+		p{
+			padding: 0 1rem;
+		}
+	}
+}
+
 .yts-block.portrets {
 	position: relative;
 	height: 60rem;
