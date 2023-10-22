@@ -32,6 +32,7 @@
 	.yts-block{
 		h2, p{
 			width: 100%;
+			padding: 0 2rem;
 		}
 	}
 	
@@ -68,6 +69,12 @@
 	background-size: cover !important;
 }
 
+@media(max-width:390px){
+	.portret{
+		width: 100%;
+	}
+}
+
 .card {
 	width: rem(400);
 	gap: 1.8rem;
@@ -90,6 +97,10 @@
 
 .slider.bottom {
 	display: flex;
+	@media(max-width:1024px){
+		justify-content: space-around;
+		width: 100%;
+	}
 	@media (max-width: 768px) {
 		justify-content: space-around;
 		width: 100%;
@@ -100,6 +111,9 @@
 	display: flex;
 	gap: 0.5rem;
 	margin-right: 46em;
+	@media(max-width:1024px){
+		margin-right: 0;
+	}
 	@media (max-width: 768px) {
 		margin-right: 0;
 	}

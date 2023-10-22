@@ -53,6 +53,17 @@
 		}
 	}
 }
+
+@media(max-width:1024px){
+	.header__container{
+		margin-bottom: 3rem !important;
+	}
+	.frs-content{
+		width: 100%;
+		padding: 0 2rem;
+	}
+}
+
 @media(max-width:425px){
 	.frs-content{
 		margin-bottom: 3rem;

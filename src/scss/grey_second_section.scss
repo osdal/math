@@ -59,11 +59,22 @@
 	}
 }
 
+@media(max-width:768px){
+	.head-gss-block-content{
+		p{
+			width: 100%;
+			padding: 0 1.5rem;
+		}
+	}
+}
+
+
 @media (max-width: 425px) {
 	.gss__container {
 		padding: 0 1rem;
 		gap: 5rem;
 		.gss-block.first {
+			padding: 0 1.5rem;
 			.icon-round {
 				width: 6rem;
 				height: 6rem;
@@ -85,7 +96,7 @@
 	}
 	.head-gss-block-content {
 		width: 100%;
-		padding: 0 2rem;
+		padding: 0;
 		h2 {
 			text-align: center;
 			br {
@@ -101,6 +112,9 @@
 	}
 	.line {
 		display: none;
+	}
+	.card{
+		padding: 0 1.5rem;
 	}
 }
 
@@ -156,6 +170,18 @@
 	}
 	.text-common {
 		width: rem(410);
+	}
+}
+
+@media(max-width:390px){
+	.gss-block.first{
+		
+			.content{
+				div.text-heading-1 {
+					font-size: 2.5rem ;
+				}
+			
+		}
 	}
 }
 
