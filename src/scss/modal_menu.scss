@@ -1,0 +1,33 @@
+.modal-menu{
+    border-radius: rem(25);
+	padding: 3.5rem;
+    .top-section{
+        display: flex;
+		justify-content: space-between;
+        align-items:center;
+        margin-bottom: 3rem;
+        .cancel-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3.75rem;
+            height: 3.75rem;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+    }
+    .menu-wrapper{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 6rem;
+        .menu{
+            margin-right: 25%;
+        }
+    }
+
+    .content-grid{
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 2;
+    }
+}
