@@ -27,7 +27,10 @@
 
     .content-grid{
         display: grid;
-        grid-template-columns: 3;
-        grid-template-rows: 2;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-rows: 1fr 1fr; 
+        .cell:last-child {
+            grid-row: span 2; /* Объединить последнюю ячейку с двумя строками */
+        }
     }
 }
