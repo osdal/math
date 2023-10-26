@@ -1,7 +1,8 @@
 .modal-menu{
-    a{
-        border: none;
+    a:focus {
+        outline: none;
     }
+    
     border-radius: rem(25);
 	padding: 3.5rem;
     .top-section{
