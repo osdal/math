@@ -1,4 +1,7 @@
 .modal-menu{
+    a{
+        border: none;
+    }
     border-radius: rem(25);
 	padding: 3.5rem;
     .top-section{
@@ -14,6 +17,7 @@
             height: 3.75rem;
             border: 1px solid #fff;
             border-radius: 50%;
+            cursor:pointer;
         }
     }
     .menu-wrapper{
