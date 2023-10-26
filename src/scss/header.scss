@@ -8,8 +8,10 @@ header {
 .top_bar {
 	display: flex;
 	align-items: center;
-
 	padding: rem(56);
+	.menu{
+		cursor:pointer;
+	}
 }
 
 @media(max-width:425px){
