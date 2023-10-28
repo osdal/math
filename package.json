@@ -59,7 +59,7 @@
 		"smooth-scroll": "latest",
 		"string-replace-loader": "latest",
 		"style-loader": "latest",
-		"swiper": "latest",
+		"swiper": "^11.0.3",
 		"terser-webpack-plugin": "latest",
 		"tippy.js": "latest",
 		"transform-runtime": "0.0.0",
@@ -72,6 +72,7 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"jshint": "^2.13.6",
 		"simplebar": "latest"
 	}
 }
