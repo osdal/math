@@ -5,7 +5,11 @@
 */
 
 // Підключаємо слайдер Swiper з node_modules
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
+
+// import Swiper bundle with all modules installed
+import Swiper from 'swiper/bundle';
+
 // При необхідності підключаємо додаткові модулі слайдера, вказуючи їх у {} через кому
 // Приклад: { Navigation, Autoplay }
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -17,10 +21,14 @@ EffectFade, Lazy, Manipulation
 */
 
 // Стилі Swiper
+
+// import styles bundle
+// import 'swiper/css/bundle';
+
 // Базові стилі
 import "../../scss/base/swiper.scss";
 // Повний набір стилів з scss/libs/swiper.scss
-// import "../../scss/libs/swiper.scss";
+import "../../scss/libs/swiper.scss";
 // Повний набір стилів з node_modules
 // import 'swiper/css';
 
