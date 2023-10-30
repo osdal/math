@@ -69,12 +69,12 @@ function initSliders() {
 			*/
 
 			// Пагінація
-			/*
+			
 			pagination: {
 				el: '.swiper-pagination',
 				clickable: true,
 			},
-			*/
+			
 
 			// Скроллбар
 			/*
@@ -116,12 +116,7 @@ function initSliders() {
 
 			}
 		});
-		var swiper = new Swiper(".mySwiper", {
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-		});
+		
 	}
 }
 // Скролл на базі слайдера (за класом swiper scroll для оболонки слайдера)
@@ -158,4 +153,5 @@ window.addEventListener("load", function (e) {
 	initSliders();
 	// Запуск ініціалізації скролла на базі слайдера (за класом swiper_scroll)
 	//initSlidersScroll();
+	
 });
