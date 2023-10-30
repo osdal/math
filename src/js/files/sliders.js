@@ -12,7 +12,11 @@ import Swiper from 'swiper/bundle';
 
 // При необхідності підключаємо додаткові модулі слайдера, вказуючи їх у {} через кому
 // Приклад: { Navigation, Autoplay }
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import {
+	Navigation,
+	Pagination,
+	Autoplay
+} from 'swiper/modules';
 /*
 Основні модулі слайдера:
 Navigation, Pagination, Autoplay, 
@@ -111,6 +115,14 @@ function initSliders() {
 			on: {
 
 			}
+		});
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
 		});
 	}
 }
