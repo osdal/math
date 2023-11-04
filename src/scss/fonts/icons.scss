@@ -8,9 +8,58 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
 [class*="_icon-"] {
 	&:before {
 		@extend %ic;
 		display: block;
 	}
+}
+
+._icon-atom:before {
+	content: "\e900";
+}
+
+._icon-bird:before {
+	content: "\e901";
+}
+
+._icon-emblema:before {
+	content: "\e902";
+}
+
+._icon-hands:before {
+	content: "\e903";
+}
+
+._icon-logo-icon:before {
+	content: "\e904";
+}
+
+._icon-raketa:before {
+	content: "\e905";
+}
+
+._icon-logo:before {
+	content: "\e906";
+}
+
+._icon-left_arrow:before {
+	content: "\e907";
+}
+
+._icon-right_arrow:before {
+	content: "\e908";
+}
+
+._icon-facebook:before {
+	content: "\e909";
+}
+
+._icon-insta:before {
+	content: "\e90a";
+}
+
+._icon-Twitter:before {
+	content: "\e90b";
 }

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?b1h52e');
+  src:  url('fonts/icons.eot?b1h52e#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?b1h52e') format('truetype'),
+    url('fonts/icons.woff?b1h52e') format('woff'),
+    url('fonts/icons.svg?b1h52e#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-left_arrow:before {
+  content: "\e907";
+}
+._icon-right_arrow:before {
+  content: "\e908";
+}
+._icon-atom:before {
+  content: "\e900";
+}
+._icon-bird:before {
+  content: "\e901";
+}
+._icon-emblema:before {
+  content: "\e902";
+}
+._icon-hands:before {
+  content: "\e903";
+}
+._icon-logo-icon:before {
+  content: "\e904";
+}
+._icon-raketa:before {
+  content: "\e905";
+}
+._icon-logo:before {
+  content: "\e906";
+}
+._icon-facebook:before {
+  content: "\e909";
+}
+._icon-insta:before {
+  content: "\e90a";
+}
+._icon-Twitter:before {
+  content: "\e90b";
+}

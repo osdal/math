@@ -129,6 +129,7 @@
 	width: 100%;
 	display: flex;
 	gap: 1.5rem;
+	font-size: rem(50);
 
 	&.first {
 		flex-direction: row;
@@ -136,6 +137,7 @@
 		justify-content: start;
 		align-items: start;
 		margin-left: 0 !important;
+		font-size: rem(60);
 		& div:last-child {
 		}
 		.decor {
